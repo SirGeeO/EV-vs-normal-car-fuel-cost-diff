@@ -88,7 +88,7 @@ for (i in anno) {
     dt <- dt[!(fduplicated(dt))]
 
     ## Write down merge as a CSV file
-    fwrite(dt, file=paste0("/home/sergio/Downloads/tempdirboth/", i, "_", j)) 
+    fwrite(dt, file=paste0("~/tempdirboth/", i, "_", j)) 
     
     ## Check if final step
     if (i==2023 & j==1) {

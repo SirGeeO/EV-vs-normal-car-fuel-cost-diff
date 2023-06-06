@@ -87,7 +87,7 @@ for (i in anno) {
     ## Delete duplicated 
     dt <- dt[!(fduplicated(dt))]
 
-    ## Write down merge
+    ## Write down merge as a CSV file
     fwrite(dt, file=paste0("/home/sergio/Downloads/tempdirboth/", i, "_", j)) 
     
     ## Check if final step

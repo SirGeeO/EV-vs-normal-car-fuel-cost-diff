@@ -39,12 +39,13 @@ The CSV files pertaining to this database contain the following variables:
 ## The R scripts
 The R scripts available in this repo contain the code for downloading the tarballs, unzipping them, correcting the lines with errors, merging the identifying info to the prices, and finally appending all the datasets together into a huge DB. The last one analyzes the difference in fuel cost. 
 
+In particular: 
+1. Download_anagrafica.R = download and correction of the data relative to the identifying info
+2. Download_prezzi.R = same but for the Prezzi database
+3. Merge_Anagrafica_Prezzi.R = Merge of the daily CSVs into year_quarter CSV
+4. Appending_script.R = Script for appending the year_quarter CSVs
+5. Cost_comparison.R = script for analyzing the fuel cost difference. 
 
-
-- spiega la struttura degli script
-- spiega la struttura dei files da scaricare 
-- spiega le vars principali 
-- aggiungi lo script di analisi
 
 
 

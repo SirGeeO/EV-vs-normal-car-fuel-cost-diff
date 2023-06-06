@@ -1,4 +1,4 @@
-######################################### DOWNLOAD ANAGRAFICA R SCRIPT ####################################################
+######################################### DOWNLOAD PREZZI R SCRIPT ####################################################
 # This script downloads the open data from the MISE website. The data is structured as daily CSV files enclosed in a quarterly folder (tarball). 
 # The time frame goes from 2015 until 2023 (until March 2023), so it comprises 33 tarballs to download. 
 # The script then extracts each tarball and corrects each CSV for any typos or problematic characters.

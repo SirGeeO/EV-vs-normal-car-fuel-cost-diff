@@ -50,7 +50,7 @@ rm(temp)
 
 #### Character correction procedure ####
 # Here the problematic files only contain some more fields. The variable that was causing problems is only present in the "Anagrafica" tables. 
-# I remove the rows in which the number of fields is not 4 (the number of variables).
+# I remove the rows in which the number of fields is not 5 (the number of variables).
 
 ## Create a new folder in which to store the corrected files (if wished to have both the raw files and corrected files)
 dir.create("~/tmpdir txt Prezzi/")

@@ -50,7 +50,7 @@ rm(temp)
 
 #### Character correction procedure ####
 # Apparently several daily CSV contain wrong characters, more fields or quotations that make the file reading impossible. 
-# I remove the rows in which the number of fields is not 9 (the number of variables).
+# I remove the rows in which the number of fields is not 10 (the number of variables).
 # Remove the strange characters
 
 ## Create a new folder in which to store the corrected files (if wished to have both the raw files and corrected files)
